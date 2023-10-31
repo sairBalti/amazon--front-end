@@ -141,6 +141,7 @@ span{
     max-width: 100%; /* Make sure the slider fits its parent */
     overflow: hidden;
    
+   
 }
 .slider {
     display: flex;
@@ -165,23 +166,20 @@ span{
 .arrow.right {
     right: 10px;
 }
-
-
-/* .hero-message{
-    background-color: #f3f3f3;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    margin-bottom: 25px;
-  
-
-
-} */
-.hero-message a{
+.slider_message {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+    max-width: 80%;
+}
+.slider_message a{
     color: #007185;
 }
+
 .box{
     
     height: 400px;
